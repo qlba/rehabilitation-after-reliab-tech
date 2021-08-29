@@ -1,0 +1,28 @@
+{
+  "name": "calc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-compile": "tsc --watch",
+    "dev-monitor": "nodemon",
+    "dev": "run-p dev-compile dev-monitor"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
+    "eslint": "^7.32.0",
+    "nodemon": "^2.0.12",
+    "npm-run-all": "^4.1.5",
+    "nrun": "^1.0.0",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "@types/koa": "^2.13.4",
+    "@types/node": "^16.7.6",
+    "koa": "^2.13.1"
+  }
+}
